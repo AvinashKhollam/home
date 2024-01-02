@@ -13,4 +13,9 @@ public class DemoController{
     public String getName(@RequestParam String str){
         return "hi "+str;
     }
+
+    @GetMapping
+    public String names(@RequestParam String str){
+        return "hi "+str;
+    }
 }
